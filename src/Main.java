@@ -1,7 +1,6 @@
 import java.sql.*;
 
 public class Main {
-    
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection connection = DriverManager
